@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 const app = require('./app');
-const port = process.env.PORT || 3800;
+const port = process.env.PORT || 3000;
 const mongoDb = process.env.MONGODB_URL ;
 
 mongoose.connect('mongodb+srv://social:1234567890@cluster0.ks75u.mongodb.net/social?retryWrites=true&w=majority', { useNewUrlParser: true })
